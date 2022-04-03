@@ -22,3 +22,20 @@ h1
     float:right;
     width:50%;
 }
+#d4
+{
+    font-size: 18px;
+    float:left;
+    width:50%;
+}
+#d5
+{
+    margin-top: -25px;
+    font-size: 18px;
+    float:right;
+    width:50%;
+}
+h3
+{
+    color: rgb(4, 4, 176);
+}
