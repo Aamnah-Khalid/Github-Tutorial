@@ -6,10 +6,19 @@ h1
 #d1
 {
     font-size: 18px;
+    
+    width:50%;
 }
 #d2
 {
     font-size: 18px;
     float:left;
+    width:50%;
+}
+#d3
+{
+    margin-top: -245px;
+    font-size: 18px;
+    float:right;
     width:50%;
 }
