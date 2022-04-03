@@ -13,7 +13,7 @@
     <div id="main_div">
 
         <div id="d1">
-            <h3>Git Configuration</h3>
+            <h3>1) Git Configuration</h3>
             <p><b>$ git config --global user.name “Your Name”</b><br>
             Set the name that will be attached to your commits and tags.</p>
             <p><b>$ git config --global user.email “you@example.com”</b><br>
@@ -22,7 +22,7 @@
             Enable some colorization of Git output.</p>
         </div>
         <div id="d2">
-            <h3>Starting a Project</h3>
+            <h3>2) Starting a Project</h3>
             <p><b>$ git init [project name]</b><br>
                 Create a new local repository. If [project name] is provided, Git will
                 create a new directory name [project name] and will initialize a
@@ -34,7 +34,7 @@
                 Remove file from working directory and staging area<br></p>
         </div>
         <div id="d3">
-            <h3>Day to day work</h3>
+            <h3>3) Day to day work</h3>
             <p><b>$ git status</b><br>
                 Displays the status of your working directory. Options include new,
                 staged, and modified files. It will retrieve branch name, current commit
@@ -53,6 +53,40 @@
             <p><b>$ git commit -m"Message here"</b><br>
                 Create a new commit from changes added to the staging area.
                 The commit must have a message!<br></p>
+        </div>
+
+        <div id="d4">
+            <br>
+            <h3>4) Git Branching Model</h3>
+            <p><b>$ git branch [-a]</b><br>
+                List all local branches in repository. With -a: show all branches
+                (with remote).<br></p>
+            <p><b>$ git branch [branch_name]</b><br>
+                Create new branch, referencing the current HEAD.<br></p>
+            <p><b>$ git checkout [-b][branch_name]</b><br>
+                Switch working directory to the specified branch. With -b: Git will
+                create the specified branch if it does not exist.<br></p>
+            <p><b>$ git merge [from name]</b><br>
+                Join specified [from name] branch into your current branch (the one
+                you are on currently).<br></p>
+            <p><b>$ git branch -d [name]</b><br>
+                Remove selected branch, if it is already merged into any other.
+                -D instead of -d forces deletion.<br></p>
+        </div>
+
+        <div id="d5">
+            <br>
+            <h3>5) Share And Update</h3>
+            <p><b>$ git remote add [alias] [url]</b><br>
+                add a git URL as an alias<br></p>
+            <p><b>$ git fetch [alias]</b><br>
+                fetch down all the branches from that Git remote<br></p>
+            <p><b>$ git merge [alias]/[branch]</b><br>
+                merge a remote branch into your current branch to bring it up to date<br></p>
+            <p><b>$ git push [alias] [branch]</b><br>
+                Transmit local branch commits to the remote repository branch<br></p>
+            <p><b>$ git pull</b><br>
+                fetch and merge any commits from the tracking remote branch<br></p>
         </div>
 
         
